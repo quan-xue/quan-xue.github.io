@@ -10100,7 +10100,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #005086;
 }
 
 .dev-icons {
@@ -10132,4 +10132,37 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.interest-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 100%;
+}
+
+.interest-text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.bullet-points{
+  padding-left: 20px;
+}
+
+#copyright{
+  font-size: 0.6rem;
+}
+
+.header-icon{
+  padding: 0 0 0 0.8rem
 }
