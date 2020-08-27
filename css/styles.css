@@ -10167,6 +10167,10 @@ section.resume-section .resume-section-content {
   padding: 0 0 0 0.8rem
 }
 
-.food-caption{
-  color: #6c757d;
+.food-caption-dark{
+  color: gray;
+}
+
+.food-caption-light{
+  color: white;
 }
