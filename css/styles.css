@@ -10174,3 +10174,7 @@ section.resume-section .resume-section-content {
 .food-caption-light{
   color: white;
 }
+
+.animate__animated{
+    --animate-duration: 1.5s;
+}
