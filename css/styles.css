@@ -10134,11 +10134,11 @@ section.resume-section .resume-section-content {
   }
 }
 
+
 .interest-img {
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  border-radius: 100%;
+  width: 100%;
 }
 
 .interest-text {
@@ -10188,5 +10188,7 @@ section.resume-section .resume-section-content {
 }
 
 .zoom:hover {
-  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  position: relative;
+  z-index: 9999999;
 }
