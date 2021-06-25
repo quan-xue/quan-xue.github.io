@@ -10176,5 +10176,17 @@ section.resume-section .resume-section-content {
 }
 
 .animate__animated{
-    --animate-duration: 1.5s;
+  --animate-duration: 1.5s;
+}
+
+.certification-icon{
+    max-width: 100%;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
